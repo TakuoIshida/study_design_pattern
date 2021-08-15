@@ -1,0 +1,22 @@
+{
+  "name": "dependency_injection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "install": "^0.13.0",
+    "node-typescript": "^0.1.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.2.0",
+    "tsyringe": "^4.6.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ts-node ./test.ts",
+    "singleton": "ts-node ./singleton.ts",
+    "di": "ts-node ./di.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
